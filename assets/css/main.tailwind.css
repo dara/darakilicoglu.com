@@ -1,0 +1,101 @@
+@tailwind base;
+
+@layer base {
+  a {
+    @apply hover:text-white transition-colors duration-default;
+  }
+
+  p {
+    @apply mb-6 last:mb-0;
+  }
+}
+
+@tailwind components;
+
+@layer components {
+  nav a {
+    @apply text-link;
+    display: inline-block;
+  }
+
+  .text-link {
+    @apply border-b border-neutral-700 inline-block border-b-[1.5px];
+    @apply hover:border-neutral-500;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  .title-mono {
+    @apply uppercase text-sm font-mono;
+  }
+
+  .title-1 {
+    @apply text-[26px] md:text-[38px];
+    @apply max-w-[12em] md:max-w-[17em];
+    line-height: 1.25;
+  }
+
+  .title-2 {
+    @apply text-[21px] md:text-[30px];
+    max-width: 20em;
+    line-height: 1.4;
+  }
+
+  .title-3 {
+    @apply text-[21px] md:text-[28px];
+    max-width: 24em;
+    line-height: 1.4;
+  }
+
+  /* Layout components */
+  .text-block {
+    @apply max-w-3xl mx-auto my-16 md:my-48;
+  }
+
+  .project-image {
+    @apply w-full h-full object-cover;
+  }
+
+  .project-caption {
+    @apply mt-3 text-sm;
+  }
+
+  .project-dual-image-container {
+    @apply grid grid-cols-2 gap-0.5 md:gap-8;
+  }
+
+  .project-dual-image-container .image-wrapper {
+    @apply aspect-[4/5] relative overflow-hidden;
+  }
+
+  .project-dual-image-container .image-wrapper img {
+    @apply absolute inset-0 w-full h-full object-cover;
+  }
+
+  .project-iframe-container {
+    @apply relative w-full aspect-[1.77/1] overflow-hidden;
+  }
+
+  .project-iframe-container iframe {
+    @apply absolute inset-0 w-full h-full border-0;
+  }
+}
+
+@tailwind utilities;
+
+@layer utilities {
+  .text-base {
+    font-size: 17px;
+  }
+  .text-sm {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    .text-base {
+      font-size: 20px;
+    }
+    .text-sm {
+      font-size: 16px;
+    }
+  }
+} 

@@ -1,0 +1,20 @@
+<div class="space-y-8 md:space-y-16">
+    {% assign sorted_case_studies = site.case_studies | sort: "order" %}
+    {% for case_study in sorted_case_studies %}
+        <article>
+            {% if case_study.image %}
+                <a href="{{ case_study.url }}" class="block aspect-video overflow-hidden mb-4 md:mb-6">
+                    <img src="{{ case_study.image }}" alt="{{ case_study.title }}" class="w-full h-full object-cover">
+                </a>
+            {% endif %}
+            <h2 class="title-mono">
+                <a href="{{ case_study.url }}">{{ case_study.title }}</a>
+            </h2>
+            {% if case_study.description %}
+                <p class="title-2 leading-[1.3] mt-1">{{ case_study.description }}</p>
+            {% endif %}
+        </article>
+    {% else %}
+        <p>No case studies found. Please make sure case studies are properly configured in _config.yml and exist in the _work directory.</p>
+    {% endfor %}
+</div>
