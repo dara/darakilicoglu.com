@@ -1168,6 +1168,10 @@ nav a {
   padding-top: 0.75rem;
 }
 
+.pt-3\.5 {
+  padding-top: 0.875rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -1282,8 +1286,8 @@ nav a {
     display: none;
   }
 
-  .md\:h-32 {
-    height: 8rem;
+  .md\:h-40 {
+    height: 10rem;
   }
 
   .md\:h-\[70vh\] {
@@ -1298,8 +1302,8 @@ nav a {
     width: 75%;
   }
 
-  .md\:w-48 {
-    width: 12rem;
+  .md\:w-60 {
+    width: 15rem;
   }
 
   .md\:grid-cols-2 {
@@ -1369,6 +1373,10 @@ nav a {
 
   .md\:pt-0 {
     padding-top: 0px;
+  }
+
+  .md\:pt-7 {
+    padding-top: 1.75rem;
   }
 
   .md\:text-base {

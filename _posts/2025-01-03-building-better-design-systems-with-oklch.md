@@ -16,13 +16,13 @@ OKLCH is a new color space set to revolutionize the way we create brand systems 
 
 <h2 class="title-3 mb-4">Fascinating features</h2>
 
-<h4 class="mb-1">↳ Perceptual uniformity</h4>
+<h3>↳ Perceptual uniformity</h3>
 Unlike RGB and HEX, OKLCH matches how our eyes actually perceive color. This is a revolutionary concept, it's the color space that's modeled for biological perceptual needs. When you adjust values, the visual change is consistent and predictable. No more unexpected shifts when tweaking colors!
 
-<h4 class="mb-1">↳ Design system friendly</h4>
+<h3>↳ Design system friendly</h3>
 Creating colors at scale is effortless with OKLCH using basic math. Maintaining consistent perceived brightness and saturation across your entire palette is possible. This is crucial for accessibility and maintaining visual harmony, especially when designing user interfaces.
 
-<h4 class="mb-1">↳ Future-proof</h4>
+<h3>↳ Future-proof</h3>
 Modern displays are capable of showing colors beyond the sRGB gamut. It's fascinating—and a bit unsettling—to realize there are colors you've never seen, simply because RGB's limitations have held us back. But we can break free from these RGB chains today. OKLCH naturally handles wider color gamuts, future-proofing your design system for next-gen displays.
 
 The beauty of OKLCH lies in its simplicity and power. I notice there are tools are rapidly emerging that make it easier than ever to work with this color space. We're seeing browser support improve dramatically, and frameworks are beginning to embrace it as the default choice for color manipulation. The upcoming Tailwind 4 supports it!

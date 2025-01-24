@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="max-w-2xl space-y-5 md:space-y-10">
+<div class="space-y-5 md:space-y-10 mx-auto">
     {% include breadcrump.html parent_title="Posts" parent_url="/posts" current=page.title %}
     
     <article class="max-w-3xl">
@@ -18,9 +18,8 @@ layout: default
         <div class="prose prose-invert prose-primary">
             {{ content }}
         </div>
+        <div class="mt-8 text-sm text-neutral-500">
+            Filed under: {{ page.tags | join: ", " }}
+        </div>
     </article>
-
-    <div class="mt-8 text-sm text-neutral-500">
-        Filed under: {{ page.tags | join: ", " }}
-    </div>
 </div>

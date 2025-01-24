@@ -13,7 +13,7 @@ title: Posts
         {% for post in site.posts %}
             <article class="group">
                 <div class="flex gap-4 md:gap-8">
-                    <div class="w-32 h-20 md:w-48 md:h-32 shrink-0">
+                    <div class="w-32 h-20 md:w-60 md:h-40 shrink-0">
                         {% if post.image %}
                             <a href="{{ post.url }}">
                                 <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-full h-full object-cover">
