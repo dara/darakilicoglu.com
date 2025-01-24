@@ -708,6 +708,34 @@ nav a {
   line-height: 1.4;
 }
 
+/* Table components */
+
+.content-table {
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: left;
+}
+
+.content-table th {
+  text-align: left;
+  font-weight: 500;
+}
+
+.content-table tr {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity, 1));
+}
+
+.content-table td, .content-table th {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.content-table td:not(:first-child) {
+  font-size: 40px;
+}
+
 /* Layout components */
 
 .text-block {
@@ -883,6 +911,10 @@ nav a {
 
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
 }
 
 .grid {
@@ -1308,12 +1340,6 @@ nav a {
     --tw-space-y-reverse: 0;
     margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(5rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
   }
 
   .md\:bg-transparent {

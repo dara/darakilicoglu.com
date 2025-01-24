@@ -47,6 +47,27 @@
     line-height: 1.4;
   }
 
+  /* Table components */
+  .content-table {
+    @apply mb-8 text-left w-full;
+  }
+
+  .content-table th {
+    @apply text-left font-medium;
+  }
+
+  .content-table tr {
+    @apply border-b border-neutral-800;
+  }
+
+  .content-table td, .content-table th {
+    @apply py-2;
+  }
+
+  .content-table td:not(:first-child) {
+    font-size: 40px;
+  }
+
   /* Layout components */
   .text-block {
     @apply max-w-3xl mx-auto my-16 md:my-48;
