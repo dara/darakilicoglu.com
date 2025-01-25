@@ -1183,6 +1183,10 @@ p:last-child {
   padding-top: 2rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .font-ibm {
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -1375,5 +1379,13 @@ p:last-child {
 
   .md\:pt-7 {
     padding-top: 1.75rem;
+  }
+
+  .md\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .md\:pt-\[30px\] {
+    padding-top: 30px;
   }
 } 
