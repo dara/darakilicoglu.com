@@ -13,16 +13,15 @@
 @tailwind components;
 
 @layer components {
-  nav a {
-    @apply text-link;
-    display: inline-block;
-  }
-
   .text-link {
-    @apply border-b border-neutral-700 inline-block border-b-[1.5px];
+    @apply inline-block leading-[1.6] border-b border-neutral-700 border-b-[1.5px];
     @apply hover:border-neutral-500;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+  }
+
+  .nav-link {
+    @apply text-link text-3xl/[1.6] md:text-base;
   }
 
   .title-mono {
