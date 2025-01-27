@@ -837,10 +837,6 @@ p:last-child {
   margin-bottom: 0px;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -903,11 +899,6 @@ p:last-child {
 
 .aspect-video {
   aspect-ratio: 16 / 9;
-}
-
-.size-\[24px\] {
-  width: 24px;
-  height: 24px;
 }
 
 .h-6 {
@@ -1218,11 +1209,6 @@ p:last-child {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:size-\[18px\] {
-    width: 18px;
-    height: 18px;
   }
 
   .md\:h-\[70vh\] {
