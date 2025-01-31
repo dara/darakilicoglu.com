@@ -2,7 +2,7 @@
 
 @layer base {
   a {
-    @apply hover:text-white transition-colors duration-default;
+    @apply transition-colors duration-default;
   }
 
   p {
@@ -14,8 +14,8 @@
 
 @layer components {
   .text-link {
-    @apply inline-block leading-[1.6] border-b border-neutral-700 border-b-[1.5px];
-    @apply hover:border-neutral-500;
+    @apply inline-block leading-[1.6] border-b border-neutral-600 border-b-[1.5px];
+    @apply hover:border-current;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
   }
