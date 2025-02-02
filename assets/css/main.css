@@ -662,6 +662,21 @@ p:last-child {
   }
 }
 
+.title-cover {
+  font-size: min(3.4vw, 56px);
+  max-width: 12em;
+}
+
+@media (min-width: 768px) {
+  .title-cover {
+    max-width: 16em;
+  }
+}
+
+.title-cover {
+  line-height: 1.2;
+}
+
 .title-1 {
   font-size: 26px;
 }
@@ -928,10 +943,6 @@ p:last-child {
 
 .max-w-\[500px\] {
   max-width: 500px;
-}
-
-.list-disc {
-  list-style-type: disc;
 }
 
 .grid-cols-1 {
@@ -1208,8 +1219,8 @@ p:last-child {
     display: none;
   }
 
-  .md\:h-\[70vh\] {
-    height: 70vh;
+  .md\:h-\[78vh\] {
+    height: 78vh;
   }
 
   .md\:h-auto {

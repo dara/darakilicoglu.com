@@ -28,6 +28,12 @@
     @apply uppercase text-sm font-mono;
   }
 
+  .title-cover {
+    font-size: min(3.4vw, 56px);
+    @apply max-w-[12em] md:max-w-[16em];
+    line-height: 1.2;
+  }
+
   .title-1 {
     @apply text-[26px] md:text-[38px];
     @apply max-w-[12em] md:max-w-[16em];
