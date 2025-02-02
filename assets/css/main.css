@@ -663,12 +663,12 @@ p:last-child {
 }
 
 .title-cover {
-  font-size: min(3.4vw, 56px);
-  max-width: 12em;
+  font-size: 26px;
 }
 
 @media (min-width: 768px) {
   .title-cover {
+    font-size: min(3.4vw,56px);
     max-width: 16em;
   }
 }
@@ -1219,8 +1219,8 @@ p:last-child {
     display: none;
   }
 
-  .md\:h-\[78vh\] {
-    height: 78vh;
+  .md\:h-\[77vh\] {
+    height: 77vh;
   }
 
   .md\:h-auto {

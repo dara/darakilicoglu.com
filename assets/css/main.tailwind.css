@@ -29,8 +29,8 @@
   }
 
   .title-cover {
-    font-size: min(3.4vw, 56px);
-    @apply max-w-[12em] md:max-w-[16em];
+    @apply text-[26px] md:text-[min(3.4vw,56px)];
+    @apply md:max-w-[16em];
     line-height: 1.2;
   }
 
