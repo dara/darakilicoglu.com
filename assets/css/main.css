@@ -1036,29 +1036,9 @@ p:last-child {
   border-color: transparent;
 }
 
-.bg-\[\#0f0f0f\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 15 15 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#121212\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#171717\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 23 23 / var(--tw-bg-opacity, 1));
-}
-
 .bg-neutral-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity, 1));
-}
-
-.bg-neutral-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(10 10 10 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
@@ -1165,9 +1145,9 @@ p:last-child {
   color: rgb(115 115 115 / var(--tw-text-opacity, 1));
 }
 
-.text-neutral-900 {
+.text-neutral-950 {
   --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity, 1));
+  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {
