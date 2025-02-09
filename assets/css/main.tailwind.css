@@ -14,8 +14,8 @@
 
 @layer components {
   .text-link {
-    @apply inline-block leading-[1.6] border-b border-neutral-600 border-b-[1.5px];
-    @apply hover:border-neutral-400;
+    @apply inline-block leading-[1.6] border-b border-neutral-700 border-b-[1.5px];
+    @apply hover:border-neutral-500;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
   }
