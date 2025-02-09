@@ -556,7 +556,7 @@ video {
 
 a {
   --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity, 1));
+  color: rgb(212 212 212 / var(--tw-text-opacity, 1));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
@@ -614,7 +614,7 @@ p:last-child {
 
 .text-link:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(23 23 23 / var(--tw-border-opacity, 1));
+  border-color: rgb(163 163 163 / var(--tw-border-opacity, 1));
 }
 
 .text-link {
@@ -632,7 +632,7 @@ p:last-child {
 
 .nav-link:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(23 23 23 / var(--tw-border-opacity, 1));
+  border-color: rgb(163 163 163 / var(--tw-border-opacity, 1));
 }
 
 .nav-link {
@@ -1041,6 +1041,11 @@ p:last-child {
   background-color: rgb(23 23 23 / var(--tw-bg-opacity, 1));
 }
 
+.bg-neutral-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 10 10 / var(--tw-bg-opacity, 1));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
@@ -1145,9 +1150,9 @@ p:last-child {
   color: rgb(115 115 115 / var(--tw-text-opacity, 1));
 }
 
-.text-neutral-950 {
+.text-neutral-400 {
   --tw-text-opacity: 1;
-  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
+  color: rgb(163 163 163 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {

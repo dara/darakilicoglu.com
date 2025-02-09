@@ -2,7 +2,7 @@
 
 @layer base {
   a {
-    @apply transition-colors duration-default text-neutral-900;
+    @apply transition-colors duration-default text-neutral-300;
   }
 
   p {
@@ -15,7 +15,7 @@
 @layer components {
   .text-link {
     @apply inline-block leading-[1.6] border-b border-neutral-600 border-b-[1.5px];
-    @apply hover:border-neutral-900;
+    @apply hover:border-neutral-400;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
   }
@@ -62,7 +62,7 @@
   }
 
   .content-table tr {
-    @apply border-b border-neutral-200;
+    @apply border-b border-neutral-800;
   }
 
   .content-table td, .content-table th {
