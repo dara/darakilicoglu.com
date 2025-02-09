@@ -30,7 +30,7 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">Solution</h2>
+    <h2 class="title-3 mb-2">Hypothesis</h2>
     <div class="space-y-8">
         <div>
             <h4 class="mb-2">↳ Simplified insurance selection</h4>

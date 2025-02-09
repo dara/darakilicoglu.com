@@ -29,7 +29,7 @@ role: Product Designer
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-    <div class="p-4 md:p-10 bg-[#171717]">
+    <div class="p-4 md:p-10 bg-neutral-900 text-neutral-300">
         <h3 class="text-neutral-500">01</h3>
         <h4 class="title-3 mb-8">Commuter</h4>
         <div class="space-y-6">
@@ -47,7 +47,7 @@ role: Product Designer
             </div>
         </div>
     </div>
-    <div class="p-4 md:p-10 bg-[#121212]">
+    <div class="p-4 md:p-10 bg-neutral-900 text-neutral-300">
         <h3 class="text-neutral-500">02</h3>
         <h4 class="title-3 mb-8">Tourist</h4>
         <div class="space-y-6">
@@ -65,7 +65,7 @@ role: Product Designer
             </div>
         </div>
     </div>
-    <div class="p-4 md:p-10 bg-[#0f0f0f]">
+    <div class="p-4 md:p-10 bg-neutral-900 text-neutral-300">
         <h3 class="text-neutral-500">03</h3>
         <h4 class="title-3 mb-8">Eco-Citizen</h4>
         <div class="space-y-6">
@@ -96,7 +96,7 @@ role: Product Designer
 <div class="project-caption">↳ Finding, Reserving and Unlocking. See nearby bikes on a map (left), select and confirm your reservation (center) and unlock (right).</div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">UX Findings</h2>
+    <h2 class="title-3 mb-2">Feedback</h2>
     <p>After launching the app successfully, we encountered some concerning user feedback. While the initial app allowed users to locate available bikes on a map and reserve them, upon arriving at the designated location, users frequently couldn't find the specific bike they had reserved.</p>
     <blockquote class="bg-neutral-900 text-neutral-300 mt-12 p-12 border-l-4 border-neutral-800">
         "We wanted to use Donkey Republic to see the city, but the app was confusing and we couldn't find one of the reserved bikes at the pick-up location."
@@ -121,7 +121,7 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">Adapting to Challenges</h2>
+    <h2 class="title-3 mb-2">Adapting to challenges</h2>
     <p>To address these issues, the app design was updated to incorporate designated drop-off locations. This involved:</p>
     <h4 class="mt-8">↳ Highlighted drop-off points</h4>
     <p>The map view was updated to clearly indicate designated drop-off locations.</p>

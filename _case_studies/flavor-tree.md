@@ -38,7 +38,7 @@ role: Product Designer & Developer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">Solution</h2>
+    <h2 class="title-3 mb-2">Hypothesis</h2>
     <p>Flavor Tree addresses sunburst's limitation by translating the lexicon into an interactive mobile application, utilizing an icicle-like visualization, the space-filling equivalent to a sunburst chart, to represent the cumulative relationships between coffee flavors in a clear and intuitive manner.</p>
 </div>
 
