@@ -1,6 +1,9 @@
 @tailwind base;
 
 @layer base {
+  * {
+    line-height: 1.5;
+  }
   a {
     @apply transition-colors duration-default text-neutral-300;
   }
@@ -18,10 +21,6 @@
     @apply hover:border-neutral-500;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
-  }
-
-  .nav-link {
-    @apply text-link text-3xl/[1.6] md:text-base;
   }
 
   .title-mono {
