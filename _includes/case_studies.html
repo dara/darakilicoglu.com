@@ -7,12 +7,10 @@
                     <img src="{{ case_study.image }}" alt="{{ case_study.title }}" class="w-full h-full object-cover">
                 </a>
             {% endif %}
-            <h2 class="title-mono">
-                <a href="{{ case_study.url }}">{{ case_study.title }}</a>
+            <h2>
+                <a href="{{ case_study.url }}" class="text-link">{{ case_study.title }}</a>
             </h2>
-            {% if case_study.description %}
-                <p class="title-2 leading-[1.3] mt-1">{{ case_study.description }}</p>
-            {% endif %}
+            <p>{{ case_study.description }}</p>
         </article>
     {% else %}
         <p>No case studies found. Please make sure case studies are properly configured in _config.yml and exist in the _work directory.</p>

@@ -28,25 +28,13 @@
   }
 
   .title-cover {
-    @apply text-[26px] md:text-[max(min(3.1vw,56px),40px)];
+    @apply text-[23px] md:text-[max(min(3.1vw,56px),40px)];
     @apply md:max-w-[16em];
-    line-height: 1.2;
+    @apply leading-[1.4] md:leading-[1.2];
   }
 
-  .title-1 {
-    @apply text-[26px] md:text-[38px];
-    @apply max-w-[12em] md:max-w-[16em];
-    line-height: 1.25;
-  }
-
-  .title-2 {
-    @apply text-[21px] md:text-[30px];
-    max-width: 20em;
-    line-height: 1.4;
-  }
-
-  .title-3 {
-    @apply text-[21px] md:text-[28px];
+  .title {
+    @apply text-[21px] md:text-[28px] pb-2 md:pb-4;
     max-width: 24em;
     line-height: 1.4;
   }

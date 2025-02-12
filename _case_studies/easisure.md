@@ -12,7 +12,7 @@ role: Product Designer
 ---
 
 <div class="text-block">
-    <h1 class="title-3 mb-2">Demystifying insurance</h1>
+    <h1 class="title">Demystifying insurance</h1>
     <p>Traditionally, purchasing and managing insurance policies can be a frustrating and time-consuming process. The world of insurance can be a labyrinth of complex policies, overwhelming options, and hidden costs. Finding the right coverage and managing claims often feels like a battle. Easisure wants to change that.</p>
 </div>
 
@@ -21,7 +21,7 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">The problem</h2>
+    <h2 class="title">The problem</h2>
     <p>With a multitude of insurance companies and policy options available, it's challenging to sift through them all and identify the one that best suits your specific needs. Insurance prices can vary significantly between providers. Comparing quotes and coverage details across different companies can be a tedious task.</p>
 </div>
 
@@ -30,7 +30,7 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">Hypothesis</h2>
+    <h2 class="title">Hypothesis</h2>
     <div class="space-y-8">
         <div>
             <h4 class="mb-2">↳ Simplified insurance selection</h4>
@@ -52,7 +52,7 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">User experience</h2>
+    <h2 class="title">User experience</h2>
     <div class="space-y-8">
         <div>
             <h4 class="mb-2">↳ Streamlined form design</h4>
@@ -78,7 +78,7 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">Conclusion</h2>
+    <h2 class="title">Conclusion</h2>
     <p>Easisure simplifies the insurance experience by empowering users to take control of their insurance needs. It eliminates the complexities and frustrations associated with traditional insurance by offering a user-centric, self-service platform.</p>
     <p>With its smart recommendations, tailored deals, and effortless management features it ensures users get the right insurance coverage at competitive prices, all within a user-friendly mobile app.</p>
 </div>

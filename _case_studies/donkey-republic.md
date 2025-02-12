@@ -13,7 +13,7 @@ role: Product Designer
 ---
 
 <div class="text-block">
-    <h1 class="title-3 mb-2">Mobility design: Unlocking bike sharing</h1>
+    <h1 class="title">Mobility design: Unlocking bike sharing</h1>
     <p>Donkey Republic is a bike-sharing company offering a convenient and eco-friendly way to navigate cities around the world. In my role as the designer of the Donkey Republic mobile app, I focused on creating a user-friendly experience for Donkey Republic's global users.</p>
 </div>
 
@@ -24,7 +24,7 @@ role: Product Designer
 <div class="project-caption">↳ Donkey bikes have special locks that use Bluetooth to talk to the Donkey Republic app on your phone.</div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">UX Needs</h2>
+    <h2 class="title">UX Needs</h2>
     <p>Creating a seamless user experience that caters to two critical needs: ¹ Enable users to effortlessly discover available bikes near their location, minimizing search time and maximizing their ride time. ² Ensuring a frictionless rental flow. From finding a bike to unlocking it and starting the ride, the entire process should be smooth and intuitive, free of unnecessary steps or complexities that could disrupt the user's experience.</p>
 </div>
 
@@ -96,7 +96,7 @@ role: Product Designer
 <div class="project-caption">↳ Finding, Reserving and Unlocking. See nearby bikes on a map (left), select and confirm your reservation (center) and unlock (right).</div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">Feedback</h2>
+    <h2 class="title">Feedback</h2>
     <p>After launching the app successfully, we encountered some concerning user feedback. While the initial app allowed users to locate available bikes on a map and reserve them, upon arriving at the designated location, users frequently couldn't find the specific bike they had reserved.</p>
     <blockquote class="bg-neutral-900 text-neutral-300 mt-12 p-12 border-l-4 border-neutral-800">
         "We wanted to use Donkey Republic to see the city, but the app was confusing and we couldn't find one of the reserved bikes at the pick-up location."
@@ -121,7 +121,7 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">Adapting to challenges</h2>
+    <h2 class="title">Adapting to challenges</h2>
     <p>To address these issues, the app design was updated to incorporate designated drop-off locations. This involved:</p>
     <h4 class="mt-8">↳ Highlighted drop-off points</h4>
     <p>The map view was updated to clearly indicate designated drop-off locations.</p>
@@ -137,7 +137,7 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title-3 mb-2">Conclusion</h2>
+    <h2 class="title">Conclusion</h2>
     <p>The Donkey Republic mobile app demonstrates a user-centered design approach that prioritizes ease of use and a seamless rental experience. By adapting to user data and business needs, the app continues to evolve to offer a convenient and reliable bike-sharing service. This case study highlights the importance of iterative design and the ability to adapt to changing circumstances to optimize the user experience.</p>
 </div>
 
