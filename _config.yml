@@ -19,7 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Dara Kilicoglu
-description: I'm a product designer. I strive to create designs that serve people, businesses, and society, delivering thoughtful work that makes a real difference.
+description: I'm a digital product designer and programmer based in Copenhagen, Denmark. I focus on product strategy and rapid prototyping methods, partnering with early-stage teams to bring delightful digital products to life."
+author: Dara Kilicoglu
 email: darakilicoglu@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://darakilicoglu.com" # the base hostname & protocol for your site

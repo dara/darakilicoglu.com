@@ -841,10 +841,6 @@ p:last-child {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .flex {
   display: flex;
 }
@@ -891,10 +887,6 @@ p:last-child {
 
 .max-w-2xl {
   max-width: 42rem;
-}
-
-.max-w-\[500px\] {
-  max-width: 500px;
 }
 
 .rotate-90 {
@@ -970,12 +962,6 @@ p:last-child {
   overflow: hidden;
 }
 
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .border-b-\[1\.5px\] {
   border-bottom-width: 1.5px;
 }
@@ -1030,11 +1016,6 @@ p:last-child {
   padding-right: 0.25rem;
 }
 
-.px-1\.5 {
-  padding-left: 0.375rem;
-  padding-right: 0.375rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1078,6 +1059,11 @@ p:last-child {
   text-transform: uppercase;
 }
 
+.text-neutral-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity, 1));
+}
+
 .text-neutral-300 {
   --tw-text-opacity: 1;
   color: rgb(212 212 212 / var(--tw-text-opacity, 1));
@@ -1091,11 +1077,6 @@ p:last-child {
 .text-neutral-500 {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity, 1));
-}
-
-.text-neutral-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 229 229 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {
