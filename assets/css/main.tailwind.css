@@ -5,7 +5,7 @@
     line-height: 1.5;
   }
   a {
-    @apply transition-colors duration-default text-neutral-300;
+    @apply transition-colors duration-default text-neutral-200;
   }
 
   p {
@@ -31,12 +31,14 @@
     @apply text-[23px] md:text-[max(min(3.1vw,56px),40px)];
     @apply md:max-w-[16em];
     @apply leading-[1.4] md:leading-[1.2];
+    @apply text-neutral-200;
   }
 
   .title {
     @apply text-[21px] md:text-[28px] pb-2 md:pb-4;
     max-width: 24em;
     line-height: 1.4;
+    @apply text-neutral-200;
   }
 
   /* Table components */
@@ -62,7 +64,7 @@
 
   /* Layout components */
   .text-block {
-    @apply max-w-3xl mx-auto my-16 md:my-48;
+    @apply max-w-2xl mx-auto my-16 md:my-48;
   }
 
   .project-image {
@@ -105,7 +107,7 @@
   }
   @media (min-width: 768px) {
     .text-base {
-      font-size: 20px;
+      font-size: 21px;
     }
     .text-sm {
       font-size: 16px;

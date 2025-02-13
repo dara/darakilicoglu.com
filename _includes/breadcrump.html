@@ -1,9 +1,3 @@
 <div class="flex items-center">
-    <a href="/" class="text-link">Home</a>
-    <span class="px-1.5">›</span>
-    {% if include.parent_title and include.parent_url %}
-    <a href="{{ include.parent_url }}" class="text-link">{{ include.parent_title }}</a>
-    <span class="px-1.5">›</span>
-    {% endif %}
-    <span class="border-b-[1.5px] border-transparent truncate inline-block max-w-[500px]">{{ include.current }}</span>
+    <a href="/" class="text-link"><svg class="rotate-90" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" fill="currentColor"><path d="M24.59 16.59 17 24.17V4h-2v20.17l-7.59-7.58L6 18l10 10 10-10-1.41-1.41z"/></svg></a>
 </div>

@@ -121,11 +121,11 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title">Adapting to challenges</h2>
+    <h2 class="title">Adapting to challenges:</h2>
     <p>To address these issues, the app design was updated to incorporate designated drop-off locations. This involved:</p>
-    <h4 class="mt-8">↳ Highlighted drop-off points</h4>
+    <h4 class="text-neutral-200">↳ Highlighted drop-off points</h4>
     <p>The map view was updated to clearly indicate designated drop-off locations.</p>
-    <h4 class="mt-8">↳ User guidance</h4>
+    <h4 class="text-neutral-200">↳ User guidance</h4>
     <p>In-app instructions and notifications reminded users to return bikes to designated spots. Incentives for responsible parking could also be explored.</p>
 </div>
 

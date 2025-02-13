@@ -30,18 +30,18 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title">Hypothesis</h2>
+    <h2>Hypothesis:</h2><br>
     <div class="space-y-8">
         <div>
-            <h4 class="mb-2">↳ Simplified insurance selection</h4>
+            <h4 class="text-neutral-200">↳ Simplified insurance selection</h4>
             <p>Easisure guides users through an interface with clear and concise questions specific to the insurance type. Based on the answers, it recommends the most suitable policy options, eliminating the need to visit numerous insurance company websites and decipher complex insurance jargon.</p>
         </div>
         <div>
-            <h4 class="mb-2">↳ Tailored deals and savings</h4>
+            <h4 class="text-neutral-200">↳ Tailored deals and savings</h4>
             <p>Easisure leverages its understanding of the insurance landscape to identify the best deals from various vendors. This hidden layer of intelligence ensures you get the optimal coverage at a competitive price, eliminating the need for manual price comparisons.</p>
         </div>
         <div>
-            <h4 class="mb-2">↳ Effortless management</h4>
+            <h4 class="text-neutral-200">↳ Effortless management</h4>
             <p>Easisure empowers users to manage their insurance policies entirely within its mobile app. This eliminates the need for lengthy phone calls or wading through paperwork. Users can conveniently file and track claims directly through the app, streamlining the entire insurance experience.</p>
         </div>
     </div>
@@ -52,22 +52,22 @@ role: Product Designer
 </div>
 
 <div class="text-block">
-    <h2 class="title">User experience</h2>
+    <h2 class="">User experience:</h2><br>
     <div class="space-y-8">
         <div>
-            <h4 class="mb-2">↳ Streamlined form design</h4>
+            <h4 class="text-neutral-200">↳ Streamlined form design</h4>
             <p>The UI uses a multi-step approach with conditional logic to streamline data input, breaking the form into manageable sections with clear progress indicators.</p>
         </div>
         <div>
-            <h4 class="mb-2">↳ Personalized recommendations</h4>
+            <h4 class="text-neutral-200">↳ Personalized recommendations</h4>
             <p>Based on the user's answers, Easisure generates 1-3 personalized insurance offers from various vendors. This eliminates the need for users to visit multiple insurance company websites and manually compare quotes.</p>
         </div>
         <div>
-            <h4 class="mb-2">↳ Transparent summaries</h4>
+            <h4 class="text-neutral-200">↳ Transparent summaries</h4>
             <p>Users are provided with easy-to-understand summaries highlighting the key features and benefits of each option. This transparency empowers users to make informed decisions about their insurance coverage.</p>
         </div>
         <div>
-            <h4 class="mb-2">↳ Seamless purchase</h4>
+            <h4 class="text-neutral-200">↳ Seamless purchase</h4>
             <p>Once users find the best fit, they can proceed with the purchase directly within the Easisure app. This eliminates the need for lengthy phone calls or complex paperwork.</p>
         </div>
     </div>

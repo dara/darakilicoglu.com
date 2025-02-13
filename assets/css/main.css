@@ -560,7 +560,7 @@ video {
 
 a {
   --tw-text-opacity: 1;
-  color: rgb(212 212 212 / var(--tw-text-opacity, 1));
+  color: rgb(229 229 229 / var(--tw-text-opacity, 1));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
@@ -661,6 +661,11 @@ p:last-child {
   }
 }
 
+.title-cover {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity, 1));
+}
+
 .title {
   padding-bottom: 0.5rem;
   font-size: 21px;
@@ -676,6 +681,8 @@ p:last-child {
 .title {
   max-width: 24em;
   line-height: 1.4;
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity, 1));
 }
 
 /* Table components */
@@ -687,7 +694,7 @@ p:last-child {
   margin-right: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  max-width: 48rem;
+  max-width: 42rem;
 }
 
 @media (min-width: 768px) {
@@ -886,12 +893,13 @@ p:last-child {
   max-width: 42rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .grid-cols-1 {
@@ -1036,10 +1044,6 @@ p:last-child {
   padding-bottom: 2.5rem;
 }
 
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -1079,9 +1083,19 @@ p:last-child {
   color: rgb(212 212 212 / var(--tw-text-opacity, 1));
 }
 
+.text-neutral-400 {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity, 1));
+}
+
 .text-neutral-500 {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity, 1));
+}
+
+.text-neutral-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {
@@ -1099,7 +1113,7 @@ p:last-child {
 
 @media (min-width: 768px) {
   .text-base {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   .text-sm {
